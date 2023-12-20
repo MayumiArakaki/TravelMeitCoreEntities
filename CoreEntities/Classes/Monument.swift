@@ -8,12 +8,12 @@
 import Foundation
 
 public struct Monument: Codable {
-    let pais: String
-    let ciudad: String
-    let district: String
-    let latitude, longitude: Double
-    let monument, short, medium, long: String
-    let image: String
+    public let pais: String
+    public let ciudad: String
+    public let district: String
+    public let latitude, longitude: Double
+    public let monument, short, medium, long: String
+    public let image: String
 
     public init(pais: String, ciudad: String, district: String, latitude: Double, longitude: Double, monument: String, short: String, medium: String, long: String, image: String) {
         self.pais = pais
